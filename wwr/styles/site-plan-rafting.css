@@ -1,0 +1,69 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Define CSS Variables */
+:root {
+  --primary-color: #c13439;
+  --secondary-color: #d6ad15;
+  --accent1-color: #1726b3;
+  --accent2-color: #b1b8c4;
+
+  --heading-font: 'Roboto', serif;
+  --paragraph-font: 'Swap', serif;
+
+  --nav-background-color: #b1b8c4;
+  --nav-link-color: #d6ad15;
+  --nav-hover-link-color: #3cb01c;
+  --nav-hover-background-color: #4a5759;
+}
+
+/* Body Selector Rule */
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 960px;
+  padding: 20px;
+}
+
+/* Headings Grouping Selector */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'swap', sans-serif;
+  color: #c13439;
+}
+
+/* Header Selector */
+header {
+  padding: 20px;
+  background-color: #3cb01c;
+}
+
+/* Paragraph Selector */
+p {
+  color: #1726b3;
+  padding: 25px;
+}
+
+/* Nav Selector and Anchor Tag Children */
+nav {
+  background-color: #4a5759;
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: #d6ad15;
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link,
+nav a:visited {
+  color: #d6ad15;
+}
+
+nav a:hover {
+  color: #3cb01c;
+  background-color: #4a5759;
+}
+ 
+
