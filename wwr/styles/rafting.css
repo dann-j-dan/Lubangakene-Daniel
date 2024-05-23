@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #d11ec2;
+  --secondary-color: #1421d3;
+  background-color: hsl(175, 91%, 50%);
+  --background-color: #f1bc0b;
+  --font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: hsl(175, 91%, 50%);
+  color: #d11ec2;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d11ec2;
+  margin: 0 10px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: rgb(95, 141, 53);
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  --background-color: #f1bc0b;
+  color: rgb(240, 9, 9);
+  padding: 20px;
+}
+
+.hero article img {
+  float: left;
+  margin-left: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1421d3;
+  color: rgb(60, 247, 13);
+}
+
+footer .sociallinks a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer .sociallinks img {
+  width: 24px;
+  height: 24px;
+}
