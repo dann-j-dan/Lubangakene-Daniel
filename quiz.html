@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>HTML and CSS Quiz</h1>
+    </header>
+    <form id="quiz-form">
+        <div class="question">
+            <label for="q1">1. Fill in the blank: HTML stands for _____ Markup Language.</label>
+            <input type="text" id="q1" name="q1" required>
+        </div>
+        <div class="question">
+            <label for="q2">2. Explain the purpose of CSS in web development:</label>
+            <textarea id="q2" name="q2" rows="4" required></textarea>
+        </div>
+        <div class="question">
+            <label for="q3">3. What does CSS stand for?</label>
+            <select id="q3" name="q3" required>
+                <option value="" selected disabled>Select one...</option>
+                <option value="cascading_style_sheets">Cascading Style Sheets</option>
+                <option value="cool_style_sheets">Cool Style Sheets</option>
+                <option value="creative_style_sheets">Creative Style Sheets</option>
+            </select>
+        </div>
+        <div class="question">
+            <label for="q4">4. How many types of heading elements are there in HTML?</label>
+            <input type="number" id="q4" name="q4" min="1" max="6" required>
+        </div>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
